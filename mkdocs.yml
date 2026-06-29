@@ -1,0 +1,27 @@
+site_name: Thomas
+nav: 
+  - 主页: index.md
+  - SAP指南 : 
+    - 供应链 : 
+      - 生产计划模块(PP) :
+        - 创建物料 : 创建物料主数据.md
+        - 维护BOM : 维护BOM主数据.md
+        - 维护工艺路线 : 维护工艺路线主数据.md
+        - 维护生产版本 : 维护生产版本主数据.md
+        - 维护计划独立需求 : 维护计划独立需求.md
+        - 运行MRP : 运行MRP.md
+        - 创建生产订单 : 创建生产订单.md
+      - 物料管理模块(MM) :
+        - 供应商主数据 : 供应商主数据.md
+        - 采购信息记录数据 : 采购信息记录数据.md
+        - 采购申请相关操作 : 采购申请相关操作.md
+        - 采购订单相关操作 : 采购订单相关操作.md
+        - 货物移动相关操作 : 货物移动相关操作.md
+        - 供应商发票相关操作 : 供应商发票相关操作.md
+  - 关于我: about.md
+theme:
+    name: "material"
+    palette:
+        primary: "black"
+        accent: "deep orange"
+    language: "zh"
